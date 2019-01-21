@@ -65,7 +65,7 @@ public class StudentControllerTest {
 
 		assertEquals(expected, expected);
 
-		//JSONAssert.assertEquals(expected, result.getResponse().getContentAsString(), false);
+		JSONAssert.assertEquals(expected, result.getResponse().getContentAsString(), false);
 
 		// assertEquals("{"id":"Course1","name":"Spring","description":"10
 		// Steps","steps":["Learn Maven","Import Project","First Example","Second
