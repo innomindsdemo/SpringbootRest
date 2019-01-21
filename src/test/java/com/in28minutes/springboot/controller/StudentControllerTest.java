@@ -63,7 +63,7 @@ public class StudentControllerTest {
 		// Students","steps":["Learn Maven","Import Project","First Example","Second
 		// Example"]}
 
-		assertEquals(expected, expected);
+		assertEquals(expected, exampleCourseJson);
 
 		//JSONAssert.assertEquals(expected, result.getResponse().getContentAsString(), false);
 
