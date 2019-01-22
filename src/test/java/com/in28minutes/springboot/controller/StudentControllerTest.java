@@ -64,7 +64,7 @@ public class StudentControllerTest {
 		// Example"]}
 
 		assertEquals(expected, expected);
-		assertEquals(expected, expected);
+		//assertEquals(expected, expected);
 
 		//JSONAssert.assertEquals(expected, result.getResponse().getContentAsString(), false);
 
